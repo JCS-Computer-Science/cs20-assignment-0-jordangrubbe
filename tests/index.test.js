@@ -20,7 +20,7 @@ describe("index.html", () => {
 		expect(container.querySelector("meta[charset]")).not.toBeNull();
 		expect(
 			container.querySelector("meta[charset]").getAttribute("charset")
-		).toEqual("utf98");
+		).toEqual("utf-8");
 	});
 	it("sets a title in the head", () => {
 		expect(container.title).not.toEqual("");
